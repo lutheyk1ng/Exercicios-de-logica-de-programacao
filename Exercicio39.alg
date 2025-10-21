@@ -1,6 +1,6 @@
 algoritmo "semnome"
-// Função :
-// Autor : Informar o risco do grupo
+// Função : Informar o risco do grupo
+// Autor : Luigi
 // Data : 14/10/2025
 // Seção de Declarações 
 var
@@ -80,4 +80,5 @@ escreval("Idade: ",idade)
 escreval("Categoria: ",grupo)
 
 fimalgoritmo
+
 
