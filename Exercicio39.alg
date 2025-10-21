@@ -1,19 +1,19 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// FunÃ§Ã£o :
+// Autor : Informar o risco do grupo
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 idade, grupo: inteiro
 nome, grupoRisco: caractere
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 escreva("Digite o nome: ")
 leia(nome)
 escreva("Digite a idade: ")
 leia(idade)
 escreval("Informe o Grupo de risco: ")
-escreval("(B)aixo / (M)édio / (A)lto ")
+escreval("(B)aixo / (M)Ã©dio / (A)lto ")
 leia(grupoRisco)
 
 se (idade >= 17) e (idade <= 70) entao
@@ -80,3 +80,4 @@ escreval("Idade: ",idade)
 escreval("Categoria: ",grupo)
 
 fimalgoritmo
+
