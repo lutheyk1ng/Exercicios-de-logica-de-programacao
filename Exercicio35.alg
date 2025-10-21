@@ -1,14 +1,14 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o : Analisar a idade do nadador e analisar se ele Ã© infantil ou juvenil ou senior.
 // Autor : Luigi
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 idade: inteiro
 
 inicio
-// Seção de Comandos 
-escreva("Qual é a idade do nadador: ")
+// SeÃ§Ã£o de Comandos 
+escreva("Qual Ã© a idade do nadador: ")
 leia(idade)
 escolha idade
     caso 5,6,7
@@ -20,9 +20,10 @@ escolha idade
     caso 14,15,16,17
         escreval("Juvenil B")
     caso 18,19,20,21,22,23,24,25
-        escreval("Sênior")
+        escreval("SÃªnior")
     outrocaso
-        escreval("Idade fora da faixa etária")
+        escreval("Idade fora da faixa etÃ¡ria")
 fimescolha
 
 fimalgoritmo
+
