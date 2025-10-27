@@ -1,18 +1,19 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o : O custo de um ve√≠culo
 // Autor :
 // Data : 29/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 custoFabrica, custoFinal: real
 
 inicio
-// SeÁ„o de Comandos
+// Se√ß√£o de Comandos
 
-escreva("Informe o custo de f·brica do veÌculo: ")
+escreva("Informe o custo de f√°brica do ve√≠culo: ")
 leia(custoFabrica)
 custoFinal <- custoFabrica + (0.28 * custoFabrica) + (0.45 * custoFabrica)
 custoFinal <- custoFinal + (0.45 * custoFinal)
-escreval("O custo para o consumidor final È de: ",custoFinal)
+escreval("O custo para o consumidor final √© de: ",custoFinal)
 
 fimalgoritmo
+
