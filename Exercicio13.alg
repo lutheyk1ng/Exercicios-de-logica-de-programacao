@@ -1,18 +1,19 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o : Verificar se um nÃºmero Ã© maior ou menor que 10
 // Autor :
 // Data : 29/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 numero: inteiro
 
 inicio
-// Seção de Comandos
-escreva("Digite um número: ")
+// SeÃ§Ã£o de Comandos
+escreva("Digite um nÃºmero: ")
 leia(numero)
 se numero > 10 entao
-escreval("O número é maior que 10")
+escreval("O nÃºmero Ã© maior que 10")
 fimse
 
 fimalgoritmo
+
 
