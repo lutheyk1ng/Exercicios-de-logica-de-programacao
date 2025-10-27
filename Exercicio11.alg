@@ -1,19 +1,20 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o : Percentual do produto
 // Autor :
 // Data : 29/09/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 custo, venda, percentual: real
 
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 escreva("Digite o valor do produto: ")
 leia(custo)
 escreva("Digite o percentual para a venda: ")
 leia(percentual)
 percentual <- (percentual/100) * custo
 venda <- custo + percentual
-escreval("O valor da venda é: ",venda)
+escreval("O valor da venda Ã©: ",venda)
 
 fimalgoritmo
+
