@@ -1,23 +1,24 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o : Verificar se o nÃºmero esta ou nao no intervalo
 // Autor :
 // Data : 08/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 numero: inteiro
 
 inicio
-// Seção de Comandos 
-escreva("Digite um número: ")
+// SeÃ§Ã£o de Comandos 
+escreva("Digite um nÃºmero: ")
 leia(numero)
 se numero >= 100 entao
    se numero <= 200 entao
-      escreval("O número está no intervalo entre 100 e 200")
+      escreval("O nÃºmero estÃ¡ no intervalo entre 100 e 200")
    senao
-        escreval("O número não está no intervalo entre 100 e 200")
+        escreval("O nÃºmero nÃ£o estÃ¡ no intervalo entre 100 e 200")
    fimse
 senao
-   escreval("O número não está no intervalo entre 100 e 200")
+   escreval("O nÃºmero nÃ£o estÃ¡ no intervalo entre 100 e 200")
 fimse
 
 fimalgoritmo
+
