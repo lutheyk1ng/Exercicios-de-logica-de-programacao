@@ -1,20 +1,21 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o : Verificar entre dois nÃºmeros qual Ã© maior 
 // Autor :
 // Data : 29/09/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
   num1, num2: inteiro
 inicio
-  escreva("Digite o primeiro número: ")
+  escreva("Digite o primeiro nÃºmero: ")
   leia(num1)
-  escreva("Digite o segundo número: ")
+  escreva("Digite o segundo nÃºmero: ")
   leia(num2)
 
   se num1 > num2 entao
-    escreva(num1, " é maior que ", num2)
+    escreva(num1, " Ã© maior que ", num2)
   senao
-    escreva(num2, " é maior que ", num1)
+    escreva(num2, " Ã© maior que ", num1)
       fimse
       
 fimalgoritmo
+
