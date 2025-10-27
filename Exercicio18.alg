@@ -1,19 +1,20 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o : Verificar se a pessoa Ã© maior de idade
 // Autor :
-// Data : 1/12/2010
-// Seção de Declarações 
+// Data : 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 x, idade: inteiro
 
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 para x de 1 ate 75 faca
      escreva("Digite a idade: ")
      leia(idade)
      se idade >= 18 entao
-        escreval("Unknown é maior de idade!")
+        escreval("Unknown Ã© maior de idade!")
      fimse
 fimpara
  
 fimalgoritmo
+
